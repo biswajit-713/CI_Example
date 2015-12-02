@@ -13,5 +13,5 @@ Feature: Tutorials on tutorialspoint.com
         |     parent_course       |       content     |       course_header     |
         |     JAVA TECHNOLOGIES   |   Learn Eclipse   |   Eclipse Tutorial      |
         |     PROGRAMMING         |   Learn MATLAB    |   MATLAB Tutorial       |
-        |     WEB DEVELOPMENT     |   Learn Bootstrap |   Bootstrap Tutorial    |
+        |     WEB DEVELOPMENT     |   bootstrap       |   Bootstrap Tutorial    |
         |     BIG DATA            |   Learn Hadoop    |   Hadoop Tutorial       |
