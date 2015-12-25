@@ -11,7 +11,7 @@ def before_all(context):
     #context.driver = webdriver.Chrome(executable_path='/Users/biswajit/selenium_files/chromedriver')
     context.driver = webdriver.PhantomJS()
     context.driver.maximize_window()
-    context.driver.implicitly_wait(10)
+    context.driver.implicitly_wait(15)
     context.driver.execute_script("document.body.style.transform='scale(1)'")
 
 def after_all(context):
