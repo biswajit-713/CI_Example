@@ -3,7 +3,7 @@ Feature: Tutorials on tutorialspoint.com
   As a user of tutorialpoint.com
   I want it to display the course searched
 
-  Scenario Outline: Search <content> on tutorialspoint.com
+  Scenario Outline: Search "<content>" on tutorialspoint.com
     Given I launch tutorialspoint.com
     When I view all courses
     And I select "<content>" under "<parent_course>"
@@ -12,6 +12,6 @@ Feature: Tutorials on tutorialspoint.com
     Examples: Tutorials
         |     parent_course       |       content     |       course_header     |
         |     JAVA TECHNOLOGIES   |   Learn Eclipse   |   Eclipse Tutorial      |
-        |     PROGRAMMING         |   Learn MATLAB    |   MATLAB Tutorial       |
-        |     WEB DEVELOPMENT     |   bootstrap       |   Bootstrap Tutorial    |
-        |     BIG DATA            |   Learn Hadoop    |   Hadoop Tutorial       |
+        |     PROGRAMMING         |   Learn Awk Programming    |   Awk Tutorial       |
+        |     WEB DEVELOPMENT     |   Learn Ajax      |   AJAX Tutorial    |
+        |     WEB DEVELOPMENT     |   Learn CSS       |   CSS Tutorial       |
